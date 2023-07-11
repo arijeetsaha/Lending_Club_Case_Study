@@ -1,6 +1,6 @@
-# Project Name
-> Outline a brief description of your project.
-
+# Lending Club Case Study
+> This case study involves understanding of risk analytics in banking and financial services and understand how data is used to minimise the risk of losing money while lending to customers.
+> It is solved by use of EDA to understand how consumer attributes and loan attributes influence the tendency of default.
 
 ## Table of Contents
 * [General Info](#general-information)
@@ -11,42 +11,41 @@
 <!-- You can include any other section that is pertinent to your problem -->
 
 ## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
+<b>What is the background of your project?</b>
 
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+- This company is the largest online loan marketplace, facilitating personal loans, business loans, and financing of medical procedures. Borrowers can easily access lower interest rate loans through a fast online interface.
+ 
+- Like most other lending companies, lending loans to ‘risky’ applicants is the largest source of financial loss (called credit loss). The credit loss is the amount of money lost by the lender when the borrower refuses to pay or runs away with the money owed. In other words, borrowers who default cause the largest amount of loss to the lenders. In this case, the customers labelled as 'charged-off' are the 'defaulters'.
+
+<b> What is the business problem that your project is trying to solve? </b>
+
+- The company wants to understand the driving factors (or driver variables) behind loan default, i.e. the variables which are strong indicators of default.  The company can utilise this knowledge for its portfolio and risk assessment.
+
+<b> What is the dataset that is being used? </b>
+
+- [Loan DataSet](loan.csv)
+- [Data Dictionary - Data attribute definition](Data_Dictionary.xlsx)
+
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
-
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+- Higher loan grade(G) will have more chances of charging out. Lesser risk grade loans(A) have less chances of charging out.
+- “Small Business” loan purpose has higher chances of charging out.
+- Higher interest rate of loan will have higher chances of charging out.
+- Company should focus on giving loan for shorter term (36 months than 60 months).
+- Company should not give loans to borrowers with derogatory public records.
+- Company should not give loans to borrowers with bankruptcy records.
+- Company should not give loans to borrowers with more than 24 open credit lines.
+- Company should not give loans to borrowers with more than 2 inquiries in last 6 months.
+- Home Loans with higher interest should not be given.
 
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
+- numpy
+- pandas
+- matplotlib
+- seaborn
 
-<!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
-
-## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
 
 
 ## Contact
-Created by [@githubusername] - feel free to contact me!
-
-
-<!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
-
-<!-- You don't have to include all sections - just the one's relevant to your project -->
+Created by [@arijeetsaha](https://github.com/arijeetsaha) - feel free to contact me!
